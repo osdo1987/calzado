@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyCdqP7QWG5e8aNtieHS25XOrlRDNzNiLKs",
+    authDomain: "facturador-beta.firebaseapp.com",
+    databaseURL: "https://facturador-beta.firebaseio.com",
+    projectId: "facturador-beta",
+    storageBucket: "facturador-beta.appspot.com",
+    messagingSenderId: "767036053099",
+    appId: "1:767036053099:web:d6a5626476d3368a93432e",
+    measurementId: "G-DNPWKK0F19"
+  }
 };
 
 /*
